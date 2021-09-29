@@ -6,7 +6,7 @@ Running
 
 You will need [crinkler](https://github.com/runestubbe/Crinkler) and Visual C++ to compile this, along with the [glext.h](https://www.khronos.org/registry/OpenGL/api/GL/glext.h) and [khrplatform.h](https://www.khronos.org/registry/EGL/api/KHR/khrplatform.h) header files in the same folder.
 
-To compile to get a 3.8kB executable file, run the following commands.
+To compile to get a 3.8kB executable file (on Windows), run the following commands.
 
 ```
 cl raytrace.c /c /Os /Gr /Gs /Oi /QIfist
@@ -14,3 +14,11 @@ crinkler.exe /subsystem:windows /tinyimport /compmode:slow raytrace.obj kernel32
 ```
 
 Then you can run `out.exe` and see some raytraced goodness.
+
+The filesize should be under 4kb.
+![3871 bytes](img/raytracer_size.png)
+
+What you should see
+---
+
+![preview](img/raytraced.png)
