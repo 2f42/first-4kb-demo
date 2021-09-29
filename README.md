@@ -16,6 +16,7 @@ crinkler.exe /subsystem:windows /tinyimport /compmode:slow raytrace.obj kernel32
 Then you can run `out.exe` and see some raytraced goodness.
 
 The filesize should be under 4kb.
+
 ![3871 bytes](img/raytracer_size.png)
 
 What you should see
