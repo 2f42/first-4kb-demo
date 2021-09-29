@@ -4,7 +4,7 @@ first attempt at a 4kb demo with raytracing (dec 2020)
 Running
 ---
 
-You will need [crinkler](https://github.com/runestubbe/Crinkler) and Visual C++ to compile this.
+You will need [crinkler](https://github.com/runestubbe/Crinkler) and Visual C++ to compile this, along with the [glext.h](https://www.khronos.org/registry/OpenGL/api/GL/glext.h) and [khrplatform.h](https://www.khronos.org/registry/EGL/api/KHR/khrplatform.h) header files in the same folder.
 
 To compile to get a 3.8kB executable file, run the following commands.
 
